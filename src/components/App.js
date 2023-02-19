@@ -10,6 +10,7 @@ const App = () => {
       Char Limit:-{" "}
       <input
         type="number"
+        id="charlimit-input"
         defaultValue={charLimit}
         onChange={(e) => {
           setCharLimit(e.target.value);
@@ -24,7 +25,6 @@ const App = () => {
       />
       <input
         type="text"
-        id="charlimit-input"
         defaultValue={inputText}
         maxLength={charLimit}
         onChange={(e) => {
