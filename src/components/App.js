@@ -6,6 +6,7 @@ const App = () => {
   const [color, setColor] = useState("black");
   const [padding, setPadding] = useState(32);
   return (
+    <form>
     <div id="main">
       Char Limit:-{" "}
       <input
@@ -52,6 +53,7 @@ const App = () => {
         {inputText}
       </div>
     </div>
+</form>
   );
 };
 
