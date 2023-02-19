@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/App.css";
 const App = () => {
-  const [charLimit, setCharLimit] = useState(50);
+  const [charLimit, setCharLimit] = useState(32);
   const [inputText, setInputText] = useState("I change");
   const [color, setColor] = useState("black");
   const [padding, setPadding] = useState(10);
